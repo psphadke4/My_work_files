@@ -3,8 +3,8 @@
 ## Prerequisites
 To install the Camunda Basic Stack on a self-hosted Kubernetes cluster, you need a Kubernetes engine. The recommended option is:
 - **Kind** (for Windows, macOS, and Linux)
-- **Minikube
-- **Self Hosted Kube using Kubeadm
+- **Minikube**
+- **Self Hosted Kube using Kubeadm**
 
 Ensure you have the following tools installed before proceeding:
 - `kubectl` (Kubernetes CLI)
@@ -51,10 +51,11 @@ Ensure you have the following tools installed before proceeding:
    ```
 
 ## Step 2: Deploy Camunda Using Helm
-To install the Basic Kubernetes stack of Camunda, you can use a `values.yaml` file. One approach is to clone the official Camunda Helm repository and use this values.yaml
+To install the Basic Kubernetes stack of Camunda, you can use a `values.yaml` file. One approach is to clone the official Camunda Helm repository and use this [values.yaml](https://github.com/camunda/camunda-platform-helm/blob/main/kind/camunda-platform-core-kind-values.yaml)
 
 
-### Option 1: Clone the Repository
+
+### Option : Clone the Repository
 
 1. Clone the Camunda Helm repository:
    ```bash
